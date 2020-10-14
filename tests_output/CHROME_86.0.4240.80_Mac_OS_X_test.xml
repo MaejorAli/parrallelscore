@@ -5,23 +5,23 @@
 
   <testsuite name="test"
     errors="0" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="3" time="44.66" timestamp="">
+    tests="3" time="39.86" timestamp="">
   
-    <testcase name="step one: navigate to parallelscore.com" classname="test" time="36.13" assertions="2">
+    <testcase name="Step one: Navigate to parallelscore.com" classname="test" time="26.36" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step two: Click on Careers and Search" classname="test" time="7.990" assertions="2">
+    <testcase name="Step two: Click on Careers and Search" classname="test" time="12.97" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step three: load Search result" classname="test" time="0.5340" assertions="15">
+    <testcase name="Step three: Load Search result" classname="test" time="0.5200" assertions="15">
 
     
 

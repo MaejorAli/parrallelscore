@@ -2,6 +2,11 @@
 
 ## Development
 
+### Technologies Used
+
+JavaScript
+Nightwatch(Selenim)
+
 ### Install
 
 ```
@@ -18,4 +23,4 @@ npm run nightwatch
 
 ### Author
 
-Ali SHaibu-Salami
+Ali Shaibu-Salami
