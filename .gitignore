@@ -1,0 +1,12 @@
+# Logs
+logs
+*.log
+chromedriver.log
+selenium-server.log
+
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
