@@ -14,7 +14,7 @@ Nightwatch(Selenium)
 npm install --save-dev
 ```
 
-Then, make changes in `tests/`.
+Then, make changes in `tests/`
 
 ### Run Tests
 
