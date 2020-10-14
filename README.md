@@ -4,8 +4,9 @@
 
 ### Technologies Used
 
-JavaScript
-Nightwatch(Selenim)
+JavaScript,
+
+Nightwatch(Selenium)
 
 ### Install
 
