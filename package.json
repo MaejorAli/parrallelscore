@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "nightwatch": "nightwatch -c nightwatch.json -e chrome"
+    "nightwatch": "nightwatch -c nightwatch.json -e chrome",
+    "nightwatch:headless": "nightwatch -c nightwatch.json -e chrome:headless"
   },
   "keywords": [
     "selenium",
