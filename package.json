@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "nightwatch": "nightwatch -c nightwatch.json -e chrome"
+    "nightwatch": "nightwatch -c nightwatch.json -e chrome",
+    "nightwatch:headless": "nightwatch -c nightwatch.json -e chrome:headless"
   },
   "keywords": [
     "selenium",
@@ -18,7 +19,7 @@
   "author": "Ali Shaibu-Salami",
   "license": "ISC",
   "devDependencies": {
-    "chromedriver": "^86.0.0",
+    "chromedriver": "^94",
     "geckodriver": "^1.20.0",
     "nightwatch": "^1.4.3",
     "selenium-server": "^3.141.59"

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="2">
+
+  <testsuite name="test"
+    errors="2" failures="1" hostname="" id="" package="test" skipped="1"
+    tests="2" time="50.14" timestamp="">
+  
+    <testcase name="Step one: Navigate to parallelscore.com" classname="test" time="39.74" assertions="2">
+
+    
+
+    
+    <error message="An error occurred while running .click() command on &lt;div.mc-closeModal&gt;: " type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .click() command on &lt;div.mc-closeModal&gt;: 
+    at ClickElement.noSuchElementError (/Users/alishaibu/parallelscore/node_modules/nightwatch/lib/element/command.js:382:12)
+    at Object.errorHandler (/Users/alishaibu/parallelscore/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/Users/alishaibu/parallelscore/node_modules/nightwatch/lib/utils/periodic-promise.js:64:29)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Step two: Click on Careers and Search" classname="test" time="10.40" assertions="1">  <failure message="Testing if the page title contains &#39;Careers&#39; in 5000ms - expected &#34;contains &#39;Careers&#39;&#34; but got: &#34;Startup Home - ParallelScore&#34; (5126ms)">    at Object.Step two: Click on Careers and Search (/Users/alishaibu/parallelscore/tests/test.js:28:15)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+
+    
+    <error message="Error while running &#34;titleContains&#34; command: Testing if the page title contains [0;33m&#39;Careers&#39;[0m in 5000ms - expected [0;32m&#34;contains &#39;Careers&#39;&#34;[0m but got: [0;31m&#34;Startup Home - ParallelScore&#34;[0m [0;90m(5126ms)[0m" type="error"><![CDATA[
+        at Object.Step two: Click on Careers and Search (/Users/alishaibu/parallelscore/tests/test.js:28:15)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;div.mc-closeModal&gt;: 
+   {&#34;sessionId&#34;:&#34;308733bed8b608415d4e9f60afc875f9&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;#menu-item-6309 &gt; a&gt;: 
+   {&#34;sessionId&#34;:&#34;308733bed8b608415d4e9f60afc875f9&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="Step three: Load Search result" classname="test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
